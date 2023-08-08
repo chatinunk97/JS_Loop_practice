@@ -7,3 +7,6 @@ for (i = 1 ; i <= number ; i++){
     startNumber+=2
 }
 console.log(result);
+
+// Logic
+// Just start with 0 and plus 2 everytime after adding it to the result

@@ -11,3 +11,7 @@ for (i = 1 ; i <= number ; i++){
     result += "\n"
 }
 console.log(result);
+
+// Logic
+// Have a variable track every value added so 
+// even it start a new line it will start from the previous value

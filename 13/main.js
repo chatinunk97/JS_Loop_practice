@@ -16,3 +16,10 @@ for (i = 1; i <= number; i++) {
     result += "\n";
 }
 console.log(result);
+
+// Logic
+// Set numSet as 1 and have it checked with every loop (the nested one)
+// then if the loop round is lesser or equal to numSet insert *
+// if it's not insert -
+// After the loop increase numSet
+// This make the range of * wider and wider every loop
