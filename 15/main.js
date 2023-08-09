@@ -29,8 +29,8 @@ for (i = 2; i <= num; i++) {
 console.log(result);
 
 // Logic
-// First Half the "*" position goes from (1-1) -> (1-2) -> (1-3) -> (1-4) 
+// First Half the "*" position goes from (1-1) -> (1-2) -> (1-3) -> (1-4)
 // this number can be linked to the row number as well
-// Second Hlaf the "*" starts from (4-4) -> (4-3) 
-// as 4 is the max length of the input number 
+// Second Hlaf the "*" starts from (4-4) -> (4-3)
+// as 4 is the max length of the input number
 // ---- > start the "*" from the input Number then have it reduce by 1 every loop
