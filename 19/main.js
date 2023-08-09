@@ -6,7 +6,7 @@ for (i = num; i >= 1; i--) {
   for (j = 1; j <= num; j++) {
     if (j > i - 1) {
       result += "*";
-    } 
+    }
     else {
       result += "-";
     }
@@ -14,12 +14,13 @@ for (i = num; i >= 1; i--) {
   result += "\n";
 }
 
-for (i = 1; i <= 2; i++) {
+
+for (i = 2; i <= num; i++) {
   for (j = 1; j <= num; j++) {
-    if( j > 1){
-      result += "*"
+    if ( j >= i){
+      result += "*";
     }
-    else {
+    else{
       result += "-";
     }
   }
